@@ -39,7 +39,7 @@ Dave
 
 ---
 
-From: Marisol Ruiz <ruizbakery.li@gmail.com>
+From: Marisol Ruiz <marisol@ruizbakery.example>
 To: dave@marchettihvac.com
 Date: Jul 21
 Subject: invoice
