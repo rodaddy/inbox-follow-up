@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "id": "inbox-follow-up",
+  "name": "Inbox Follow-Up Ledger",
+  "version": "1.0.4",
+  "requirements": {
+    "runtimes": [
+      {
+        "id": "node",
+        "version": ">=22.6.0",
+        "check": ["node", "--version"],
+        "required_for": [
+          "deterministic ledger validation",
+          "money totals and act-today ranking",
+          "package verification"
+        ]
+      }
+    ]
+  },
+  "verification": {
+    "commands": [
+      ["node", "verify-install.mjs"],
+      ["node", "--test", "tests/ledger-report.test.mjs"]
+    ]
+  }
+}

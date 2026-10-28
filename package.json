@@ -1,0 +1,10 @@
+{
+  "name": "inbox-follow-up-kit",
+  "version": "1.0.4",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/ledger-report.test.mjs",
+    "verify": "node verify-install.mjs"
+  }
+}
