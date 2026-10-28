@@ -6,5 +6,6 @@
   "scripts": {
     "test": "node --test tests/ledger-report.test.mjs",
     "verify": "node verify-install.mjs"
-  }
+  },
+  "license": "SEE LICENSE IN LICENSE"
 }
